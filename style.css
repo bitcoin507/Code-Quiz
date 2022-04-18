@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(36, 36, 88) ;
+}
+
+
+   
+    
+ 
+
+  button {
+    
+    color: whitesmoke;
+    text-decoration: none;
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(36, 36, 88);
+
+  }
+
+  button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 1);
+  }
+
+  .carousel-slide {
+    position: relative;
+  }
+
+  
+
+   img {
+    max-height: 600px;
+  }
+
+  #caption1 {
+    position: absolute;
+    top: 20px;
+  }
+
+  #caption2 {
+    display: none;
+  }
+  
+
+  
+
+  
