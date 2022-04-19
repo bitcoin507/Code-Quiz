@@ -1,0 +1,10 @@
+add alert
+
+add event listeners 
+
+add cards
+
+add timer
+
+hidden icons for sucess or failure
+
