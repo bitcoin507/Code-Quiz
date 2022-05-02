@@ -7,7 +7,7 @@ body {
     
  
 
-  button {
+  #button1 {
     
     color: whitesmoke;
     text-decoration: none;
@@ -24,6 +24,8 @@ body {
     background-color: rgba(255, 255, 255, 1);
     box-shadow: 0 10px 10px rgba(255, 255, 255, 1);
   }
+
+ 
 
   .carousel-slide {
     position: relative;
@@ -52,6 +54,55 @@ body {
     right: 540px;
   }
   
+ 
+
+  
+
+
+ .btn {
+   margin: 6px;
+   width: 320px;
+   height: 100px;
+   
+ }
+
+ 
+
+
+
+
+#seconds {
+  
+  position: absolute;
+  top: 10px;
+	width: 2%;
+	font-size: 150px;
+}
+
+#btncon1 {
+  position: absolute;
+  bottom: 200px;
+  display: none;
+  background-color: transparent;
+}
+
+.btncon {
+  margin: 0;
+  position: absolute;
+  bottom: 200px;
+  background-color: transparent;
+}
+
+#scoreCount {
+  position: absolute;
+  left: 980px;
+  top: 50px;
+	font-size: 100px;
+  
+
+}
+
+
 
   
 
