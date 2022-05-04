@@ -1,5 +1,5 @@
 
-var button1 = document.getElementById('button1');
+var startButton = document.getElementById('startButton');
 
 var carousel1 = document.getElementById('carousel1');
 
@@ -10,29 +10,29 @@ var btncon1 = document.getElementById('btncon1');
 
 
 
-button1.addEventListener('click', showAnswer );
+startButton.addEventListener('click', showAnswer );
 
 
 function showAnswer() {
     btncon1.style.display = 'block';
 };
 
-button1.addEventListener('click', hideButton );
+startButton.addEventListener('click', hideButton );
 
 function hideButton() {
-    button1.style.display ='none';
+    startButton.style.display ='none';
 
 };
 
 
-button1.addEventListener('click', activateCarousel );
+startButton.addEventListener('click', activateCarousel );
 
 function activateCarousel() {
     carousel1.setAttribute("class","carousel-item active");
 
 };
 
-button1.addEventListener('click', displayCaption );
+startButton.addEventListener('click', displayCaption );
 
 function displayCaption() {
     
@@ -45,7 +45,7 @@ function displayCaption() {
 
        var timeLeft = 100;
 
-       button1.addEventListener('click', countdown );
+       startButton.addEventListener('click', countdown );
        
 
 
@@ -84,7 +84,7 @@ correctAnswers[9].addEventListener('click',calculateScore);
 
 var timeLeft = 100;
 
-button1.addEventListener('click', countdown );
+startButton.addEventListener('click', countdown );
 
 
 
