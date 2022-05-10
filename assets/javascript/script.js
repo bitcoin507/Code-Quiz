@@ -123,15 +123,6 @@ function disableButton() {
     
 }
 
-var requestOptions = {
-    method: 'GET',
-    redirect: 'follow'
-  };
-  
-  fetch("http://api.weatherstack.com/current?access_key=d1c3e9dcbf9b2024095a775fa77bdb65&query=Panama", requestOptions)
-    .then(response => response.text())
-    .then(result => console.log(result))
-    .catch(error => console.log('error', error));
 
 
 
